@@ -5,6 +5,7 @@
 #define G 6.67430e-11
 int main()
 {
+	setlocale(LC_ALL, "rus");
 	double mass1, mass2, distance, force;
 	printf("Расчёт силы гравитационного притяжения\n");
 	printf("Введите массу первого тела (кг):");
